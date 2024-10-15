@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wikipedia-like Static Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Linux+Libertine:wght@400;700&display=swap");
+      .wiki-title {
+        font-family: "Linux Libertine", serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <nav class="bg-gray-900 p-2">
+      <div class="container mx-auto">
+        <a href="#" class="text-white text-2xl font-bold wiki-title"
+          >WikiKnowledge</a
+        >
+      </div>
+    </nav>
+
+    <div class="container mx-auto mt-4 flex flex-col md:flex-row">
+      <main class="w-full md:w-3/4 bg-white p-6 rounded-lg shadow-md">
+        <h1 class="text-4xl font-bold mb-4 wiki-title border-b pb-2">
+          Artificial Intelligence
+        </h1>
+        <div class="text-gray-700">
+          <p class="mb-4">
+            Artificial intelligence (AI) is intelligence demonstrated by
+            machines, as opposed to natural intelligence displayed by animals
+            including humans. AI research has been defined as the field of study
+            of intelligent agents, which refers to any system that perceives its
+            environment and takes actions that maximize its chance of achieving
+            its goals.
+          </p>
+
+          <h2 class="text-2xl font-bold mt-6 mb-3 wiki-title">History</h2>
+          <p class="mb-4">
+            The field of AI research was founded at a workshop held on the
+            campus of Dartmouth College during the summer of 1956. Those who
+            attended would become the leaders of AI research for decades. Many
+            of them predicted that a machine as intelligent as a human would
+            exist in no more than a generation, and they were given millions of
+            dollars to make this vision come true.
+          </p>
+
+          <h2 class="text-2xl font-bold mt-6 mb-3 wiki-title">Applications</h2>
+          <p class="mb-4">
+            AI has been used in a wide range of fields including medical
+            diagnosis, stock trading, robot control, law, scientific discovery
+            and toys. However, many AI applications are not perceived as AI: "A
+            lot of cutting edge AI has filtered into general applications, often
+            without being called AI because once something becomes useful enough
+            and common enough it's not labeled AI anymore."
+          </p>
+
+          <h3 class="text-xl font-bold mt-4 mb-2 wiki-title">
+            Machine Learning
+          </h3>
+          <p class="mb-4">
+            Machine learning (ML) is the study of computer algorithms that
+            improve automatically through experience. It is seen as a part of
+            artificial intelligence. Machine learning algorithms build a model
+            based on sample data, known as "training data", in order to make
+            predictions or decisions without being explicitly programmed to do
+            so.
+          </p>
+
+          <h3 class="text-xl font-bold mt-4 mb-2 wiki-title">
+            Natural Language Processing
+          </h3>
+          <p class="mb-4">
+            Natural language processing (NLP) is a subfield of linguistics,
+            computer science, and artificial intelligence concerned with the
+            interactions between computers and human language, in particular how
+            to program computers to process and analyze large amounts of natural
+            language data.
+          </p>
+        </div>
+      </main>
+
+      <aside class="w-full md:w-1/4 p-4">
+        <div class="bg-white p-4 rounded-lg shadow-md mb-4">
+          <h2 class="text-xl font-semibold mb-2 wiki-title">Contents</h2>
+          <ul class="list-disc pl-5">
+            <li>
+              <a href="#" class="text-blue-600 hover:underline">History</a>
+            </li>
+            <li>
+              <a href="#" class="text-blue-600 hover:underline">Applications</a>
+              <ul class="list-disc pl-5">
+                <li>
+                  <a href="#" class="text-blue-600 hover:underline"
+                    >Machine Learning</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-blue-600 hover:underline"
+                    >Natural Language Processing</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="text-blue-600 hover:underline"
+                >Ethics and Risks</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-blue-600 hover:underline">Future of AI</a>
+            </li>
+          </ul>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-md mb-4">
+          <h2 class="text-xl font-semibold mb-2 wiki-title">Quick Facts</h2>
+          <ul class="list-disc pl-5">
+            <li>Field founded: 1956</li>
+            <li>Key areas: Machine Learning, NLP, Robotics</li>
+            <li>
+              Major applications: Healthcare, Finance, Autonomous vehicles
+            </li>
+            <li>Notable pioneers: Alan Turing, John McCarthy, Marvin Minsky</li>
+          </ul>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-md">
+          <h2 class="text-xl font-semibold mb-2 wiki-title">Related Topics</h2>
+          <ul class="list-disc pl-5">
+            <li>
+              <a href="#" class="text-blue-600 hover:underline"
+                >Computer Science</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-blue-600 hover:underline">Robotics</a>
+            </li>
+            <li>
+              <a href="#" class="text-blue-600 hover:underline">Data Science</a>
+            </li>
+            <li>
+              <a href="#" class="text-blue-600 hover:underline"
+                >Cognitive Science</a
+              >
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <footer class="bg-gray-200 text-gray-700 p-4 mt-8">
+      <div class="container mx-auto text-center">
+        <p>This page was last edited on 15 October 2024, at 14:32 (UTC).</p>
+        <p class="mt-2">
+          &copy; 2024 WikiKnowledge. Text is available under the Creative
+          Commons Attribution-ShareAlike License 3.0.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
